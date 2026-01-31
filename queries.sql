@@ -1,7 +1,6 @@
 -- Analyze International Debt Statistics
 -- Project inspired by DataCamp
 
-
 -- Number of distinct countries in the database
 SELECT COUNT (DISTINCT country_name) AS  total_distinct_countries
 FROM international_debt;
